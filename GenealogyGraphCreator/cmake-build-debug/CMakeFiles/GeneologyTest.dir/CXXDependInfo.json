@@ -1,0 +1,30 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/rfitz/CLionProjects/GenealogyGraphCreator/cmake-build-debug",
+	"dir-cur-src" : "/home/rfitz/CLionProjects/GenealogyGraphCreator",
+	"dir-top-bld" : "/home/rfitz/CLionProjects/GenealogyGraphCreator/cmake-build-debug",
+	"dir-top-src" : "/home/rfitz/CLionProjects/GenealogyGraphCreator",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"/usr/include/SDL3_gfx"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/rfitz/CLionProjects/GenealogyGraphCreator/cmake-build-debug/CMakeFiles/GeneologyTest.dir",
+	"sources" : 
+	{
+		"CMakeFiles/GeneologyTest.dir/main.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/rfitz/CLionProjects/GenealogyGraphCreator/main.cpp"
+		}
+	}
+}

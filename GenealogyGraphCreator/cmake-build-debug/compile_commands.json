@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/rfitz/CLionProjects/GenealogyGraphCreator/cmake-build-debug",
+  "command": "/usr/bin/c++ -I/usr/include/SDL3_gfx -g -std=gnu++20 -fdiagnostics-color=always -fmodules-ts -fmodule-mapper=CMakeFiles/GenealogyGraphCreator.dir/test.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/GenealogyGraphCreator.dir/test.cpp.o -c /home/rfitz/CLionProjects/GenealogyGraphCreator/test.cpp",
+  "file": "/home/rfitz/CLionProjects/GenealogyGraphCreator/test.cpp",
+  "output": "/home/rfitz/CLionProjects/GenealogyGraphCreator/cmake-build-debug/CMakeFiles/GenealogyGraphCreator.dir/test.cpp.o"
+}
+]
