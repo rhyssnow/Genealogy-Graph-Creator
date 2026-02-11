@@ -274,10 +274,10 @@ struct SDLApplication {
         if (!pausedGraphMovement) return;
         for (auto&[fst, snd] : connections) {
             if (peopleRank.at(fst.first) > peopleRank.at(fst.second)) {
-                updateDistance(peopleToNumbers[fst.first], peopleToNumbers[fst.second], snd.first, peopleRank.at(fst.first)+peopleRank.at(fst.second), true);
+                updateDistance(peopleToNumbers[fst.first], peopleToNumbers[fst.second], snd.first, peopleRank.at(fst.first)+peopleRank.at(fst.second)+snd.second, true);
             }
             else {
-                updateDistance(peopleToNumbers[fst.first], peopleToNumbers[fst.second], snd.first, peopleRank.at(fst.first)+peopleRank.at(fst.second), false);
+                updateDistance(peopleToNumbers[fst.first], peopleToNumbers[fst.second], snd.first, peopleRank.at(fst.first)+peopleRank.at(fst.second)+snd.second, false);
             }
         }
     }
